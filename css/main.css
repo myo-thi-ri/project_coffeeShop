@@ -22,6 +22,7 @@
 
 .left-right-section {
   display: flex;
+  margin-bottom: 24px;
 }
 
 .left-right-section .text {
@@ -37,11 +38,11 @@
 
 .left-right-section .image {
   width: 50%;
-  height: 420px;
+  display: flex;
 }
 
 .left-right-section .image img {
-  height: 100%;
+  width: 100%;
 }
 
 .text h1,
@@ -57,4 +58,143 @@
 .text h3 {
   font-weight: 30px;
   margin-bottom: 19px;
+}
+
+.left-right-section .text .cta {
+  padding: 10px 16px;
+  border: 1px solid;
+  border-radius: 50px;
+  color: #1e3932;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 20px;
+  transition: all 0.2s ease;
+}
+
+.text .cta:hover {
+  padding: 7px 32px;
+  background-color: rgba(30, 57, 50, 0.1);
+}
+
+.frappuccino {
+  margin-bottom: 24px;
+}
+
+.frappuccino .text h1 {
+  color: #1e3932;
+  line-height: 1.2;
+  letter-spacing: 8px;
+  font-weight: 700;
+  font-size: 50px;
+  text-transform: uppercase;
+}
+
+.frappuccino .text h3 {
+  font-size: 24px;
+  line-height: 1.5;
+  letter-spacing: -0.01em;
+}
+
+.frappuccino .text {
+  background-color: #f2f0eb;
+}
+
+section {
+  display: flex;
+  margin-bottom: 24px;
+}
+
+.top-bottom-section {
+  width: 50%;
+  display: flex;
+}
+
+.section-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-container .image img {
+  width: 100%;
+}
+
+.section-container .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  text-align: center;
+  padding: 48px;
+}
+
+.cta-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cta-container .cta {
+  padding: 7px 16px;
+  border: 1px solid;
+  border-radius: 50px;
+  line-height: 1.2;
+  cursor: pointer;
+}
+
+.top-bottom-section:first-child .section-container {
+  margin-right: 16px;
+}
+
+.top-bottom-section:last-child .section-container {
+  margin-left: 16px;
+}
+
+.top-bottom-section .image {
+  display: flex;
+}
+
+.top-bottom-section .text {
+  background-color: #d4e9e2;
+  flex-grow: 1;
+}
+
+.top-bottom-section .text h1 {
+  color: #1e3932;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.top-bottom-section .text h3 {
+  color: #1e3932;
+  font-size: 19px;
+  line-height: 1.75;
+}
+
+footer {
+  height: 300px;
+  box-shadow: 0 -1px 3px rgb(0 0 0 / 10%), 0 -2px 2px rgb(0 0 0 / 6%),
+    0 0 2px rgb(0 0 0 / 7%);
+  padding: 24px 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1440px;
+  margin: 0 auot;
+}
+
+.about-us h3 {
+  font-size: 16px;
+}
+.about-us ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+}
+
+.about-us ul li {
+  margin-bottom: 12px;
+  color: rgba(0, 0, 0, 0.87);
 }

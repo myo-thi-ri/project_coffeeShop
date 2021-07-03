@@ -6,6 +6,9 @@ body {
   color: rgba(0, 0, 0, 0.87);
 }
 
+* {
+  box-sizing: border-box;
+}
 a {
   color: black;
 }
@@ -66,7 +69,6 @@ header {
   align-items: center;
   margin-right: 14px;
   font-weight: 600;
-  display: flex;
 }
 
 .find-store:hover {
